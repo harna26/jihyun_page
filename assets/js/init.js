@@ -617,6 +617,23 @@ input.addEventListener('keyup', keyup);
 addPrompt(0);
 
 
+///* file 저장 */
+const saveFile = document.getElementsByClassName("save");
+
+function download(filename, textInput){
+    const element = document.createElement('a');
+    element.setAttribute('href','data:text/plain;charset=utf-8,' + encodeURIComponent(textInput));
+    element.setAttribute('download', filename);
+    document.body.appendChild(element);
+    element.click();
+    console.log(element);
+}
+document.getElementById("save_btn").addEventListener("click", function (e){
+    e.preventDefault();
+    const text = document.getElementById("input").value;
+    const filename = "file.txt";
+    download(filename,text);
+}, false);
 //----- project -----//
 
 var carousel = $(".p_carousel"),
