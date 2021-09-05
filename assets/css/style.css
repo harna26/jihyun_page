@@ -36,6 +36,9 @@ body {
     font-family: 'Dancing Script', "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
 }
+.typed {
+    margin-top: 30px;
+}
 
 .theme-accent-color {
     color: #C10E1F;
