@@ -2013,7 +2013,7 @@ input#save_btn {
     height: 40px;
     background-color: transparent;
     border: 0;
-    top: 160px;
+    top: 123px;
     left: 66%;
 }
 
@@ -2021,15 +2021,15 @@ input#save_btn {
     input#save_btn {
         width: 11%;
         position: relative;
-        top: 206px;
-        left: 45%;
+        top: 135px;
+        left: 68%;
     }
 }
 
 @media screen and (max-width: 1000px) {
     input#save_btn {
         position: relative;
-        top: 177px;
+        top: 135px;
         left: 73%;
     }
 }
