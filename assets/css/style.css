@@ -1904,20 +1904,22 @@ svg {
     font-size: 5em;
     text-align: center;
     color: #FFF;
-    opacity: 0.95;
+    /*opacity: 0.95;*/
     border-radius: 10px;
+    cursor: pointer;
+
 }
 
 .a {
     transform: rotateY(0deg) translateZ(250px);
-    background-image: url("../img/item1.jpg");
+    background-image: url("../img/3차.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .b {
     transform: rotateY(60deg) translateZ(250px);
-    background-image: url("../img/item2.jpg");
+    background-image: url("../img/2_index.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
